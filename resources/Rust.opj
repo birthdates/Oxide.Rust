@@ -1,6 +1,6 @@
 {
   "Name": "Rust",
-  "TargetDirectory": "E:\\Servers\\Rust\\RustDedicated_Data\\Managed",
+  "TargetDirectory": "E:\\Servers\\Rust-aux01\\RustDedicated_Data\\Managed",
   "Manifests": [
     {
       "AssemblyName": "Assembly-CSharp.dll",
@@ -629,7 +629,7 @@
                 "Network.Connection"
               ]
             },
-            "MSILHash": "a9d3qdX2kPdcMiY1EJ2o19zTkP28CB6bg/13iNISqXw=",
+            "MSILHash": "fK72M85qC6fj440w0mP15W51kgNHvwq7rHbNGi1BxII=",
             "BaseHookName": null,
             "HookCategory": "Player"
           }
@@ -2362,7 +2362,7 @@
                 "Network.Message"
               ]
             },
-            "MSILHash": "ZBz5glXuc5fJNJnp+5B2+zWiyUsDvS564Lt3Gn2If/Y=",
+            "MSILHash": "Nr/jXJMO6ejtdVMqDhSaOSGrU/woqfVXXOrhQY0zrQQ=",
             "BaseHookName": null,
             "HookCategory": "Player"
           }
@@ -2389,7 +2389,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "/mTE2rFCrCuUYGpMmnJEX/Xqk30HbT4WK+h3s7lhjBg=",
+            "MSILHash": "Id2y3dfhARpvN7NDyUQKEHxZaXR3sHmLJFuhArpWs1g=",
             "BaseHookName": null,
             "HookCategory": "Server"
           }
@@ -2440,7 +2440,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "/mTE2rFCrCuUYGpMmnJEX/Xqk30HbT4WK+h3s7lhjBg=",
+            "MSILHash": "Id2y3dfhARpvN7NDyUQKEHxZaXR3sHmLJFuhArpWs1g=",
             "BaseHookName": "OnNewSave",
             "HookCategory": "Server"
           }
@@ -8599,7 +8599,7 @@
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "5497uu8CSKipxhLuz/8Et0vvqYU1dvMQwxDPgP09TNE=",
+            "MSILHash": "dEkeWXpfpC6pJUjVSjV0YXRhEowMFfWP8mClBOjwMzg=",
             "BaseHookName": null,
             "HookCategory": "Server"
           }
@@ -8623,7 +8623,7 @@
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "5497uu8CSKipxhLuz/8Et0vvqYU1dvMQwxDPgP09TNE=",
+            "MSILHash": "dEkeWXpfpC6pJUjVSjV0YXRhEowMFfWP8mClBOjwMzg=",
             "BaseHookName": "IOnUpdateServerInformation",
             "HookCategory": "Server"
           }
@@ -29303,28 +29303,6 @@
           "MSILHash": "j+dBTjn+elHyZkgkBqhgK5XEpl+ChmTrQ+eKYYWZJp4="
         },
         {
-          "Name": "PlaceMonumentsRoadside::GetDistanceInfo",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "PlaceMonumentsRoadside",
-          "Type": 1,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "GetDistanceInfo",
-            "FullTypeName": "PlaceMonumentsRoadside/DistanceInfo",
-            "Parameters": [
-              "System.Collections.Generic.List`1<PlaceMonumentsRoadside/SpawnInfo>",
-              "UnityEngine.Vector3"
-            ]
-          },
-          "MSILHash": "DvR5gw1HRFgMZZvnVlLFKKuHDcYn0EgeZfve8d5AFwI="
-        },
-        {
           "Name": "PlaceMonumentsRoadside::GroupCandidates",
           "AssemblyName": "Assembly-CSharp.dll",
           "TypeName": "PlaceMonumentsRoadside",
@@ -34544,6 +34522,29 @@
             "Parameters": []
           },
           "MSILHash": ""
+        },
+        {
+          "Name": "PlaceMonumentsRoadside::GetDistanceInfo",
+          "AssemblyName": "Assembly-CSharp.dll",
+          "TypeName": "PlaceMonumentsRoadside",
+          "Type": 1,
+          "TargetExposure": [
+            2
+          ],
+          "Flagged": false,
+          "Signature": {
+            "Exposure": [
+              0
+            ],
+            "Name": "GetDistanceInfo",
+            "FullTypeName": "PlaceMonumentsRoadside/DistanceInfo",
+            "Parameters": [
+              "System.Collections.Generic.List`1<PlaceMonumentsRoadside/SpawnInfo>",
+              "UnityEngine.Vector3",
+              "MonumentInfo"
+            ]
+          },
+          "MSILHash": "qu+yNZlfbdC4PLOTmOK6iAtCoCoYNcvu/+g5tffA5P0="
         }
       ],
       "Fields": [
